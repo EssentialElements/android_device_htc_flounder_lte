@@ -40,7 +40,8 @@ TARGET_OTA_ASSERT_DEVICE := flounder,flounder_lte
 
 # Extra Packages
 PRODUCT_PACKAGES += \
-	com.android.nfc_extras
+	com.android.nfc_extras \
+	firstboot
 
 # CM Overlays
 DEVICE_PACKAGE_OVERLAYS += \
